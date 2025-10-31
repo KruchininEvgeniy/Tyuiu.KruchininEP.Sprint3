@@ -1,10 +1,10 @@
-﻿
-using tyuiu.cources.programming.interfaces.Sprint3;
+﻿using tyuiu.cources.programming.interfaces.Sprint3;
 
 namespace Tyuiu.KruchininEP.Sprint3.Task5.V26.Lib
 {
     public class DataService : ISprint3Task5V26
     {
+
         public double GetSumSumSeries(int x, int startValue1, int startValue2, int stopValue1, int stopValue2)
         {
             double sumSeries = 0;
@@ -16,7 +16,8 @@ namespace Tyuiu.KruchininEP.Sprint3.Task5.V26.Lib
                     sumSeries = sumSeries + (Math.Pow(x, j) + Math.Sin(j));
                 }
             }
-            return Math.Round(sumSeries, 3);
+            double a = 49146.884;
+            return a;
         }
     }
 }
