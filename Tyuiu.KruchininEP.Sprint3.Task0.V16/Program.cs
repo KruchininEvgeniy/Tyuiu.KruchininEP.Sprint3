@@ -21,10 +21,12 @@ namespace Tyuiu.KruchininEP.Sprint3.Task0.V16
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Исходные данные:                                                        *");
             int x = 5, kEnd = 6, kStart = 1;
-            Console.WriteLine("x = " + x);
-            Console.WriteLine("Начальное k = " + kStart);
-            Console.WriteLine("Конечное k = " + kEnd);
-            Console.WriteLine("* Результат:                                                              *");
+            Console.WriteLine("*    x = " + x);
+            Console.WriteLine("*    Начальное k = " + kStart);
+            Console.WriteLine("*    Конечное k = " + kEnd);                         
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("*    Результат:                                                           *");
+            Console.WriteLine("***************************************************************************");
             Console.WriteLine(ds.GetMultiplySeries(x, kStart, kEnd));
 
         }
