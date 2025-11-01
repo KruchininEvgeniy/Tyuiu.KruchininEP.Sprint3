@@ -5,7 +5,7 @@ namespace Tyuiu.KruchininEP.Sprint3.Task7.V12.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidGetMassFunction()
         {
             DataService ds = new DataService();
 
