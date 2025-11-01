@@ -30,9 +30,10 @@ namespace Tyuiu.KruchininEP.Sprint3.Task7.V12
 
             int len = ds.GetMassFunction(startValue, stopValue).Length;
 
-            double[] arr = new double[len];
+            double[] valueArray;
+            valueArray = new double[len];
 
-            arr = ds.GetMassFunction(startValue, stopValue);
+            valueArray = ds.GetMassFunction(startValue, stopValue);
 
             Console.WriteLine("**********************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                     *");
@@ -44,7 +45,7 @@ namespace Tyuiu.KruchininEP.Sprint3.Task7.V12
 
             for (int i = 0; i <= len - 1; i++)
             {
-                Console.WriteLine("|{0}     | {1,6:f2}   |", startValue, arr[i]);
+                Console.WriteLine("|{0,5:d}     | {1,5:f2}   |", startValue, valueArray[i]);
                 startValue++;
             }
             Console.WriteLine("+----------+----------+");
